@@ -1,0 +1,22 @@
+{
+  "name": "fundraise",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "fastify": "3.25.0",
+    "tsc": "2.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.0",
+    "prettier": "2.5.1",
+    "typescript": "4.5.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start:server": "node ./dist/server.js",
+    "start:client": "node ./dist/client.js",
+    "prettier": "prettier --write src"
+  },
+  "author": "",
+  "license": "ISC"
+}

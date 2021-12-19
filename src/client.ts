@@ -65,7 +65,6 @@ class ClientApp {
       hostname: "127.0.0.1",
       port: 8080,
       path: "/data",
-      method: "POST",
       headers: {
         "Content-Type": "application/json",
         "Content-Length": Buffer.byteLength(postData),

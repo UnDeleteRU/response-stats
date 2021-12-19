@@ -17,6 +17,5 @@
     "start:client": "node ./dist/client.js",
     "prettier": "prettier --write src"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "UnDeleteRU"
 }
